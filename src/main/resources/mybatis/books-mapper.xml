@@ -10,4 +10,9 @@
     <select id="getBook" resultType="Book" parameterType="Integer">
         select * from book where id=#{id}
     </select>
+
+    <insert id="addBook" parameterType="Book">
+        insert into book(title,description,pub_time,author)
+            values(#{title},#{description},#{pub_time},#{author})
+    </insert>
 </mapper>

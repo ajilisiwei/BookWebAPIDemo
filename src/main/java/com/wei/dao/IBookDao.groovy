@@ -10,4 +10,5 @@ import org.springframework.stereotype.Repository
 interface IBookDao {
     List<Book> getBooks()
     Book getBook(int id)
+    int addBook(Book book)
 }

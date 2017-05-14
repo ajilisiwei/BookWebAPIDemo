@@ -10,4 +10,5 @@
     <typeAliases>
         <typeAlias type="com.wei.entity.Book" alias="Book"/>
     </typeAliases>
+
 </configuration>

@@ -1,7 +1,7 @@
 mybatis:
   mapperLocations: classpath:mybatis/*-mapper.xml
   config: classpath:mybatis/mybatis-conf.xml
-  typeAliasesPackage: com.fndroid
+  typeAliasesPackage: com.wei
   checkConfigLocation: false
 
 spring:
@@ -10,3 +10,9 @@ spring:
     username: root
     password: wei
     driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+  port: 8091
+  session-timeout: 30
+  tomcat.max-threads: 0
+  tomcat.uri-encoding: UTF-8
