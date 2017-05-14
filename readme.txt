@@ -13,4 +13,4 @@
 3.设置spring-boot的热部署
     (1).参考: http://blog.csdn.net/my_chen_suo_zhang/article/details/69396808
 4.API调试工具: PostMan
-4.项目已在linux上部署成功
+4.项目已在linux上部署成功(使用spring-boot内置tomcat)
