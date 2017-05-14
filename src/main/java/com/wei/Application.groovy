@@ -27,7 +27,7 @@ class Application {
     @Bean
     @ConfigurationProperties(prefix = 'spring.datasource')
     DataSource dataSource() {
-        new DataSource()
+         new DataSource()
     }
 
     @Bean
