@@ -27,6 +27,7 @@ class Application {
     @Bean
     @ConfigurationProperties(prefix = 'spring.datasource')
     DataSource dataSource() {
+        System.out.println("inited a datasource")
          new DataSource()
     }
 
